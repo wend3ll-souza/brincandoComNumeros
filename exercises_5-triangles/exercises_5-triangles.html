@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+	<link rel="manifest" href="img/site.webmanifest">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="animations.css">
+	<title>Triangulo</title>
+</head>
+<body>
+	<header class="animate-right"> 
+		<h1>Triangulo</h1>
+		<img onclick="history.go(0)" src="./img/android-chrome-192x192.png" alt="logo">
+
+		<ul class=icon>
+            <a href="https://github.com/wend3ll-souza" target="_blank">
+                <i class="fab fa-github-alt"></i>
+            </a>
+            <a href="https://www.behance.net/wend3llsouza" target="_blank">
+                <i class="fab fa-behance-square"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/wendell-souza-5b13781a3/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+		</ul>
+		
+	</header>
+	<form name="comparisonForm" class="animate-up">
+		<h2>180 será sempre a soma dos angulos internos de um triangulo ;)</h2>
+		<section id="compar">
+			<input name="a" type="text" autocomplete="off"><br>
+			<input name="b" type="text" autocomplete="off"><br>
+			<input name="c" type="text" autocomplete="off"><br>
+			<button type="button" onclick="comparison()">Verificar</button><br>
+			<label id="result"></label>
+		</section>
+	</form>
+	<nav id="nextOrNot" class="animate-up">
+		<a id="back" href="../exercises_4-positiveOrNot/exercises_4-positiveOrNot.html">
+			<img src="../img/arrowBack.svg" alt="Back">
+		</a>
+		<a id="next" href="../exercises_6-chessRules/exercises_6-chessRules.html">
+			<img src="../img/arrow.svg" alt="Next">
+		</a>
+	</nav>
+</body>
+<script src="script.js"></script>
+</html>
