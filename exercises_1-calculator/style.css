@@ -60,10 +60,12 @@ form{
     display: inline-flex;
     position: relative;
     top: 31px;
+    left: 35px;
 }
 
 #operationMenu input{
     margin-left: 1rem;
+    cursor:ponter;
 }
 
 #calc{
