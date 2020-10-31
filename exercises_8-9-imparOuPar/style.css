@@ -66,11 +66,12 @@ form{
 #compar{
     position: absolute;
     left: 55px;
-    top: 100px;
+    top: 54px;
 }
 
 #compar input{
     font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 
