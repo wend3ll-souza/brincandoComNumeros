@@ -97,3 +97,40 @@ form{
     justify-content: space-around;
    
 }
+
+#dropdown {
+    display:inline;
+}
+
+#sidebar {
+    position: absolute;
+    left: 0.75rem;
+    top: 5.5rem;
+    display: none;
+    width: 15rem;
+    line-height: 1.5;
+    text-align: center;
+    background: antiquewhite;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.404);
+    z-index: 5;
+}
+
+#dropdown:hover #sidebar {
+    display: block;
+}
+
+#sidebar a:hover {
+    background-color: rgb(250,226,195);
+    border-right: 0.4rem solid rgb(255, 190, 104);
+}
+
+#sidebar a {
+    text-decoration: none;
+    display: block;
+    padding: 0.4rem 0.6rem;
+    font-weight: bold;
+    color: #6d6969;
+    margin: 0;
+    font-size: 1rem;
+}
+

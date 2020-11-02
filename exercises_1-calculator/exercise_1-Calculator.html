@@ -14,7 +14,20 @@
 <body>
 	<header class="animate-right"> 
 		<h1>Calculadora</h1>
-		<img onclick="history.go(0)" src="./img/android-chrome-192x192.png" alt="logo">
+		<nav id="dropdown" style="margin: 0;">
+			<img onclick="history.go(0)" src="./img/android-chrome-192x192.png" alt="logo">
+			<aside id="sidebar">
+				<a href="/exercises_1-calculator/exercise_1-Calculator.html">Calculadora</a>
+				<a href="/exercises_2-comparison/exercise_2-Comparison.html">Comparador</a>
+				<a href="/exercises_3-comparisonBetween3num/exercises_3-comparisonBetween3num.html">ComparTriplo</a></li>
+				<a href="/exercises_4-positiveOrNot/exercises_4-positiveOrNot.html">Positivo ou Negativo</a>
+				<a href="/exercises_5-triangles/exercises_5-triangles.html">Triângulos</a>
+				<a href="/exercises_6-chessRules/exercises_6-chessRules.html">Regras de Xadres</a>
+				<a href="/exercises_7-notas/exercises_7-notas.html">Notas</a>
+				<a href="/exercises_8-9-imparOuPar/exercises_8-9-imparOuPar.html">Par ou Ímpar</a>
+				<a href="/exercises_10-lucro/exercises_10-lucro.html">Lucro</a>
+			</aside>
+		</nav>
 
 		<ul class=icon>
             <a href="https://github.com/wend3ll-souza" target="_blank">
@@ -29,6 +42,9 @@
 		</ul>
 		
 	</header>
+
+	
+
 	<form name="calculator" class="animate-up">
 		<ul id="operationMenu">
 			<input type="radio" name="operation" value="+" onclick="change()" Checked="checked"> Adição<br>
